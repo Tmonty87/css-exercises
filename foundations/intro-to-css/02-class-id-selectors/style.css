@@ -1,1 +1,26 @@
 /* Add CSS Styling */
+
+
+p{
+    background-color: rgb(rgb(231, 25, 25), rgb(231, 113, 213), rgba(0, 0, 255, 0));
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+
+#number2 {
+    color: rgba(67, 135, 223, 0.922);
+    font-size: 36px;
+
+}
+
+
+.number3 {
+    font-size: 24px;
+}
+
+#number4 {
+
+    background-color: rgb(154, 248, 131);
+    font-size: 24px;
+    font-weight: bold;
+}
