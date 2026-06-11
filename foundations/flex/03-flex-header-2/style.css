@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-self: center;
+ 
   
 }
 
@@ -53,11 +56,15 @@ ul {
 
 .right {
   display: flex;
+  gap: 20px;
+  align-items: center;
   justify-content: flex-end;
+  flex: auto;
+  
 }
 
 .left {
   display: flex;
   justify-content: flex-start;
-
+  align-items: center;
 }
