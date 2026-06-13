@@ -4,7 +4,7 @@ body {
 
 img {
   width: 100px;
-  height: 100px;
+  height: 100px;  
 }
 
 .title {
@@ -16,7 +16,11 @@ img {
 
 .plants {
   display: flex;
+  justify-content: center;
+  
 }
+
+
 
 /* do not edit this footer */
 .footer {
