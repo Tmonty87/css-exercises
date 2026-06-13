@@ -1,10 +1,12 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
-  height: 100px;  
+  height: 100px;
+ 
 }
 
 .title {
@@ -16,11 +18,24 @@ img {
 
 .plants {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 16px;
   
 }
 
+.love {
+  display: block;
+  justify-content: center ;
+}
 
+.text {
+  display: flex;
+  align-self: center;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%;
+  
+}
 
 /* do not edit this footer */
 .footer {
