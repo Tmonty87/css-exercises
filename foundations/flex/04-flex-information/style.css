@@ -25,18 +25,10 @@ img {
 }
 
 .love {
-  display: block;
-  justify-content: center;
+ max-width: 200px;
+
 }
 
-.text {
-  display: flex;
-  align-self: center;
-  flex-wrap: wrap;
-  margin: 0%;
-  padding: 0%;
-  
-}
 
 /* do not edit this footer */
 .footer {
