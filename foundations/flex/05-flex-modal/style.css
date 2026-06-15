@@ -82,3 +82,11 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.text {
+  text-align:left;
+  margin-left: 75px;
+  margin-bottom: 16px;
+  margin-top: -20px;
+
+}
