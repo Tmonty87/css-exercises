@@ -6,6 +6,7 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
   
+  
 }
 
 img {
@@ -17,6 +18,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 6px 20px;
+  margin: 10px;
 }
 
 input {
@@ -54,7 +57,7 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 100px;
   
 
-  
 }
