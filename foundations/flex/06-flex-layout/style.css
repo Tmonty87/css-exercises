@@ -43,11 +43,18 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-right;
+}
+
+.content {
+  display: block;
+  text-align: center;
+  
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-right;
+  
+
+  
 }
