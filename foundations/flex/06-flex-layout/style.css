@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
   
 }
 
@@ -17,8 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 6px 20px;
-  margin: 10px;
+  padding: 8px 16px;
+  
 }
 
 input {
@@ -50,10 +52,7 @@ a {
 }
 
 .content {
-  display: block;
-  text-align: center;
-  margin-top: 200px;
-  
+  flex: 1;
   
 
   
@@ -63,7 +62,7 @@ a {
   display: flex;
   justify-content: space-between;
   background-color: rgb(232, 163, 163);
-  margin-top: 225px;
+ 
   
   
   }
