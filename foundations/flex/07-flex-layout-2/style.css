@@ -29,6 +29,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 ul, a {
@@ -42,4 +43,9 @@ ul, a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.middle-container {
+  display: flex;
+  flex: 1;
 }
